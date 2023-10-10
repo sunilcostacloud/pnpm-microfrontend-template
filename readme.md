@@ -1,9 +1,8 @@
 create a new microfrontend from scratch
 
-If pnpm is not installed globally then copy and paste the below command in cmd
-npm install -g pnpm
+If pnpm is not installed globally then copy and paste the below command in cmd: npm install -g pnpm
 
-to check the version of pnpm type the following in cmd : pnpm -v
+to check the version of pnpm type the following in cmd: pnpm -v
 
 pnpm init
 
