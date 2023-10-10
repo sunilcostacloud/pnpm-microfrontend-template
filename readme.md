@@ -1,10 +1,17 @@
 create a new microfrontend from scratch
 
+If pnpm is not installed globally then copy and paste the below command in cmd
+npm install -g pnpm
+
+to check the version of pnpm type the following in cmd : pnpm -v
+
 pnpm init
 
 pnpm add react react-dom
 
 pnpm add @babel/runtime
+
+// adding devDependencies
 
 pnpm add @babel/core @babel/plugin-transform-runtime @babel/preset-env @babel/preset-react autoprefixer babel-loader css-loader html-webpack-plugin postcss postcss-loader style-loader webpack webpack-cli file-loader clean-webpack-plugin webpack-dev-server eslint eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh html-loader -D
 
