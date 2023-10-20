@@ -14,10 +14,6 @@ pnpm add @babel/runtime
 
 pnpm add @babel/core @babel/plugin-transform-runtime @babel/preset-env @babel/preset-react autoprefixer babel-loader css-loader html-webpack-plugin postcss postcss-loader style-loader webpack webpack-cli file-loader clean-webpack-plugin webpack-dev-server eslint eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh html-loader -D
 
-// if you are using typescript
-
-pnpm add @babel/preset-typescript @types/react @types/react-dom typescript -D
-
 // package.json
 
 remove : "description": "" and "main": "index.js", and add "private": true,
